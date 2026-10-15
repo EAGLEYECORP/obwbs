@@ -1,0 +1,26 @@
+# Très gros porteur à 4 trains principaux (valeurs indicatives, proches d'un A380)
+# Démontre la prise en charge de trains ventraux et de bogies multi-essieux.
+name        = WB4
+description = Quadriréacteur très gros porteur, 4 trains principaux
+mac_m       = 12.0
+lemac_m     = 30.0
+cg_height_m = 5.0
+
+mrw_kg  = 577000
+mtow_kg = 575000
+mlw_kg  = 394000
+mzfw_kg = 369000
+
+envelope = 270000:28 400000:27 575000:33 575000:42 400000:44 270000:41
+
+leg = NOSE     7.0  0.0 1
+leg = WLG_L   37.0 -6.1 2   # train d'aile, bogie 2 essieux
+leg = WLG_R   37.0  6.1 2
+leg = BLG_L   40.0 -2.0 3   # train de fuselage, bogie 3 essieux
+leg = BLG_R   40.0  2.0 3
+
+tank = WING_L 33.5 115000
+tank = WING_R 33.5 115000
+tank = TRIM   62.0  19000
+
+window_samples = 150      # plus de 3 s : structure plus souple

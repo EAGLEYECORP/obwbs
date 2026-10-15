@@ -1,0 +1,3 @@
+tail    = DEMO-NB189
+type    = NB189
+default = 0.004 100000 0 0

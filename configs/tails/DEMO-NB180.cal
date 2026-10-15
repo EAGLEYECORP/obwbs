@@ -1,0 +1,8 @@
+# Étalonnage de l'avion DEMO-NB180 (pesée sur balances à l'installation)
+tail    = DEMO-NB180
+type    = NB180
+# gain (kg/point)  zéro (points)  dérive gain (ppm/°C)  dérive zéro (points/°C)
+default = 0.004 100000 0 0
+ch0     = 0.00401  100250  12  1.5   # train avant, voie A
+ch1     = 0.00399   99820 -8   0.8   # train avant, voie B
+ch5     = 0.004005 100510  15  2.0

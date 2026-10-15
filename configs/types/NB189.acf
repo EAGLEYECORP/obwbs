@@ -1,0 +1,21 @@
+# Monocouloir 189 places (valeurs indicatives, proches d'un 737-800)
+name        = NB189
+description = Biréacteur moyen-courrier 189 places
+mac_m       = 3.958
+lemac_m     = 15.928
+cg_height_m = 2.7
+
+mrw_kg  = 79242
+mtow_kg = 79010
+mlw_kg  = 66361
+mzfw_kg = 62732
+
+envelope = 41000:9 60000:9 79010:16 79010:30 66000:33 41000:31
+
+leg = NOSE   2.70  0.00 1
+leg = MLG_L 18.30 -2.86 2
+leg = MLG_R 18.30  2.86 2
+
+tank = WING_L 16.60 3900
+tank = WING_R 16.60 3900
+tank = CENTER 16.40 13000

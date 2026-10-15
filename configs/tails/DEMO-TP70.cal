@@ -1,0 +1,3 @@
+tail    = DEMO-TP70
+type    = TP70
+default = 0.004 100000 0 0

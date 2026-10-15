@@ -1,0 +1,25 @@
+# Monocouloir 180 places (valeurs indicatives, proches d'un A320ceo)
+# Remplacer par les données du manuel de masse et centrage du constructeur.
+name        = NB180
+description = Biréacteur moyen-courrier 180 places
+mac_m       = 4.1935     # corde aérodynamique moyenne
+lemac_m     = 17.8015    # bord d'attaque de la CMA depuis la référence
+cg_height_m = 3.0        # hauteur du CG au-dessus du sol
+
+mrw_kg  = 78400
+mtow_kg = 78000
+mlw_kg  = 66000
+mzfw_kg = 62500
+
+# Enveloppe : masse_kg:centrage_%CMA, dans l'ordre du contour
+envelope = 40000:17 60000:17 78000:25 78000:35 66000:40 40000:37
+
+# Jambes : nom, x (m), y (m, droite +), nombre de points de mesure (roues)
+leg = NOSE   7.90  0.00 1
+leg = MLG_L 20.50 -3.80 2
+leg = MLG_R 20.50  3.80 2
+
+# Réservoirs : nom, bras de levier (m), capacité (kg)
+tank = WING_L 18.95 6200
+tank = WING_R 18.95 6200
+tank = CENTER 18.55 6500

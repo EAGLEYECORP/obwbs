@@ -1,0 +1,4 @@
+tail    = DEMO-WB4
+type    = WB4
+default = 0.005 100000 0 0
+ch12    = 0.00502 101000 10 1.0

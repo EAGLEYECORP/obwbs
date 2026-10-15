@@ -1,0 +1,20 @@
+# Turbopropulseur régional 70 places (valeurs indicatives, proches d'un ATR 72)
+name        = TP70
+description = Biturbopropulseur régional 70 places
+mac_m       = 2.303
+lemac_m     = 11.60
+cg_height_m = 2.0
+
+mrw_kg  = 23170
+mtow_kg = 23000
+mlw_kg  = 22350
+mzfw_kg = 21000
+
+envelope = 13000:15 23000:20 23000:36 18000:38 13000:35
+
+leg = NOSE   2.00  0.00 1
+leg = MLG_L 12.77 -2.05 2
+leg = MLG_R 12.77  2.05 2
+
+tank = WING_L 12.10 2500
+tank = WING_R 12.10 2500
